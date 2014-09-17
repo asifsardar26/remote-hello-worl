@@ -8,5 +8,7 @@ Git add helps in three mechanisms:
 
 - Tracking new files. It adds the untracked files
 - To stage files. It adds the files with changes not staged for commit, so, adding includes them in the commit
-- Marking merge-conflicted files as resolved. It helps mark conflicted files as resolved, the files which failed 
+- Marking merge-conflicted files as resolved. It helps mark conflicted files as resolved, the files which failed
   when git auto-merge arises merge conflicts
+
+  Add some changes so that it is left as unstaged, then use 'git diff' to see what changes are done
