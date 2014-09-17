@@ -1,0 +1,12 @@
+Create a simple file to learn git ...
+
+I unstage the file to practice how the file is reset back to the untracked-files in the local repository.
+
+Open the file again and do some changes. The git will drop it back to the Index->(stage), untill you add it again to be included in the next commit. It helps to learn the overall mechanism of three trees in local repository i.e. Working Directory, Index and HEAD (pointing to the last commit).
+
+Git add helps in three mechanisms:
+
+- Tracking new files. It adds the untracked files
+- To stage files. It adds the files with changes not staged for commit, so, adding includes them in the commit
+- Marking merge-conflicted files as resolved. It helps mark conflicted files as resolved, the files which failed 
+  when git auto-merge arises merge conflicts
