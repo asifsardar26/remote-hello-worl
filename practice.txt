@@ -12,3 +12,4 @@ Git add helps in three mechanisms:
   when git auto-merge arises merge conflicts
 
   Add some changes so that it is left as unstaged, then use 'git diff' to see what changes are done
+  Some more changes ...
